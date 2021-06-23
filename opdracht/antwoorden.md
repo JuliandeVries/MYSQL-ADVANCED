@@ -7,6 +7,6 @@
 3. Copy paste je gemaakte SQL query hieronder
    SELECT forename, surname FROM drivers, pitstops WHERE duration < 25
 4. Copy paste je gemaakte SQL query hieronder
-   
+   SELECT name, name FROM constructors, races WHERE year = 2010 AND constructorref = 'mclaren'
 5. Copy paste je gemaakte SQL query hieronder
-   
+    SELECT name, country, name FROM circuits, races WHERE year = 2010 AND surname LIKE 'f%'
